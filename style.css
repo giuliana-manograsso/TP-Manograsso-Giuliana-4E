@@ -16,13 +16,13 @@ section{
  }
 
  #inicio img{
-    width: 95%;
-    height: 350px;
+    width: 100%;
+    height: auto;
  }
 
  #reutilizando img,
 #accesorios img,
  #texturas img{
     width: 350px;
-    height:250px;
+    height:auto;
  }
