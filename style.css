@@ -15,11 +15,28 @@ section{
     background-color:rgb(111, 196, 199);
 }
 
-img{
-    width:70%;
-    height:50%;
-}
  .logo img{
+    display: flex;
+    width: 70px;
+    height:70px;
+ }
+
+ #Inicio img{
+    width: 70px;
+    height: 70px;
+ }
+
+ #Reutilizando ropa img{
+    width: 70px;
+    height:70px;
+ }
+
+ #Como utilizar accesorios img{
+    width: 70px;
+    height:70px;
+ }
+
+ #Combinación de texturas y colores img{
     width: 70px;
     height:70px;
  }
