@@ -6,19 +6,8 @@ p h1 h2 {
     border: 3px solid rgb(69, 169, 153); 
     padding: 10px; }
 
-
-*{
-        margin:0;
-    }
-
 section{
     background-color:rgb(111, 196, 199);
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
 }
 
  .logo img{
@@ -26,22 +15,14 @@ section{
     height:70px;
  }
 
- #Inicio img{
+ #inicio img{
+    width: 95%;
+    height: 350px;
+ }
+
+ #reutilizando img,
+#accesorios img,
+ #texturas img{
     width: 350px;
-    height: auto;
- }
-
- #Reutilizando\ropa img{
-    width: 280px;
-    height:auto;
- }
-
- #Como\utilizar\accesorios img{
-    width: 280px;
-    height:auto;
- }
-
- #Combinación\ de\ texturas\ y\colores img{
-    width: 280px;
-    height:auto;
+    height:250px;
  }
