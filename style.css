@@ -27,21 +27,21 @@ section{
  }
 
  #Inicio img{
-    width: 90px;
-    height: 70px;
+    width: 350px;
+    height: auto;
  }
 
  #Reutilizando\ropa img{
-    width: 300px;
-    height:250px;
+    width: 280px;
+    height:auto;
  }
 
  #Como\utilizar\accesorios img{
-    width: 250px;
-    height:300px;
+    width: 280px;
+    height:auto;
  }
 
  #Combinación\ de\ texturas\ y\colores img{
-    width: 300px;
-    height:250px;
+    width: 280px;
+    height:auto;
  }
