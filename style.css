@@ -25,4 +25,7 @@ section{
  #texturas img{
     width: 350px;
     height:auto;
+    background-color: rgb(111, 196, 199);
+    padding: 10px;
+    margin: 10px;
  }
