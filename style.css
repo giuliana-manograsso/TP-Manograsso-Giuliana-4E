@@ -1,9 +1,6 @@
 
 p h1 h2 { 
-    color: rgb(254, 253, 253); font-family: 'Raleway'; }
-
-main { 
-        background-color: rgb(234, 123, 105); font-weight: 800; }
+    color: rgb(254, 253, 253); font-family: sans-serif; }
 
  h2{ 
     border: 3px solid rgb(132, 223, 208); 
