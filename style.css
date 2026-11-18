@@ -10,6 +10,7 @@ p h1 h2 {
 
 section{
     background-color:rgb(159, 200, 213);
+    gap: 10px;
 }
 
  .logo img{
