@@ -6,25 +6,10 @@ p h1 h2 {
 
  h2{ 
     border: 3px solid rgb(255, 255, 255); 
-    padding: 10px; }
+    padding: 10px; 
+}
 
 section{
     background-color:rgb(159, 200, 213);
-    gap: 10px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo h1 {
-    margin: 0;
-}
-
-.logo img {
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
-}
