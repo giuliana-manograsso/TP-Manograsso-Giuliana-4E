@@ -1,31 +1,19 @@
 
 p h1 h2 { 
-    color: rgb(254, 253, 253); font-family: sans-serif; }
+    color: rgb(0, 0, 0); font-family: sans-serif; }
 
  h2{ 
-    border: 3px solid rgb(69, 169, 153); 
+    border: 3px solid rgb(255, 255, 255); 
     padding: 10px; }
 
 section{
-    background-color:rgb(111, 196, 199);
+    background-color:rgb(159, 200, 213);
 }
 
  .logo img{
     width: 70px;
     height:70px;
+    display:flex;
  }
 
- #inicio img{
-    width: 350px;
-    height: auto;
- }
 
- #reutilizando img,
-#accesorios img,
- #texturas img{
-    width: 350px;
-    height:auto;
-    background-color: rgb(111, 196, 199);
-    padding: 10px;
-    margin: 10px;
- }
