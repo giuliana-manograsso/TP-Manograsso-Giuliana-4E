@@ -1,15 +1,121 @@
-
-p h1 h2 { 
-   color: rgb(0, 0, 0); font-family: sans-serif; 
-   text-align: justify;
-   }
-
- h2{ 
-    border: 3px solid rgb(255, 255, 255); 
-    padding: 10px; 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
+body{
+    background:rgb(255, 246, 240);
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: #b78585;
+    padding: 15px 40px;
+    border-bottom: 1px solid #e5ddd2;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #e1d4c9;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #e1d4c9;
+    font-size: 15px;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.menu li a:hover {
+    color: #b18b70;
+}
+
+/*
 section{
     background-color:rgb(159, 200, 213);
+}*/
+
+
+main {
+    background-color: #faf8f5;
+    padding: 45px 8%;
 }
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#inicio article {
+    background-color:#b78585;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(100, 80, 60, 0.08);
+}
+
+#inicio article h2 {
+    color: #e1d4c9;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#inicio article p {
+    color: #e1d4c9;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#inicio article img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #b78585;
+    padding: 25px 20px;
+    text-align: center;
+    color: #e1d4c9;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 8px 0;
+    letter-spacing: 0.4px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+
 
