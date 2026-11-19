@@ -62,15 +62,9 @@ body{
     color: #c7a790;
 }
 
-/*
-section{
-    background-color:rgb(159, 200, 213);
-}*/
-
-
 main {
     background-color: #faf8f5;
-    padding: 45px 8%;
+    padding: 45px;
 }
 
 #inicio {
